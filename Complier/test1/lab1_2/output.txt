@@ -1,0 +1,73 @@
+>print the syntax tree:
+Program(9)
+  ExtDefList(9)
+    ExtDef(9)
+      Specifier(9)
+        TYPE:int
+      FunDec(9)
+        IDENTIFIER:main
+        LP(9)
+        RP(9)
+      CompSt(9)
+        RC(9)
+        DefList(10)
+          Def(10)
+            Specifier(10)
+              TYPE:int
+            DecList(10)
+              Dec(10)
+                VarDec(10)
+                  IDENTIFIER:a
+              COMMA(10)
+              DecList(10)
+                Dec(10)
+                  VarDec(10)
+                    IDENTIFIER:b
+            SEMI(10)
+          
+        StmtList(11)
+          Stmt(11)
+            IF(11)
+            LP(11)
+            Exp(11)
+              Exp(11)
+                IDENTIFIER:a
+              RELOP(11)
+              Exp(11)
+                IDENTIFIER:b
+            RP(11)
+            Stmt(12)
+              Exp(12)
+                Exp(12)
+                  Exp(12)
+                    IDENTIFIER:a
+                  ASSIGN(12)
+                  Exp(12)
+                    IDENTIFIER:a
+                SUB(12)
+                Exp(12)
+                  IDENTIFIER:b
+              SEMI(12)
+            ELSE(13)
+            Stmt(14)
+              Exp(14)
+                Exp(14)
+                  Exp(14)
+                    IDENTIFIER:b
+                  ASSIGN(14)
+                  Exp(14)
+                    IDENTIFIER:b
+                SUB(14)
+                Exp(14)
+                  IDENTIFIER:a
+              SEMI(14)
+          StmtList(15)
+            Stmt(15)
+              RETURN(15)
+              Exp(15)
+                IDENTIFIER:a
+              SEMI(15)
+            
+        LC(16)
+    
+syntax tree over

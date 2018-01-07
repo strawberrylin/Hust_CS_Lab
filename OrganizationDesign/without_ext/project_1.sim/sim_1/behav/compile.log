@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/WE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/seven_segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/REGISTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/CONTROL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROL
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/dclok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dclok
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/choose_seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module choose_seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/HAZARD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAZARD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/BY_PATH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BY_PATH
+INFO: [VRFC 10-2458] undeclared symbol tempb1, assumed default net type wire [/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/BY_PATH.v:46]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/RAM_DATA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_DATA
+WARNING: [VRFC 10-2379] empty port in module declaration [/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/RAM_DATA.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/ROM_INSTRUCTION.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_INSTRUCTION
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/REGFILE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGFILE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/ALU_MIPS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_MIPS
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sources_1/new/MIPS_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.srcs/sim_1/new/MIPS_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/Xilinx/VerilogProject/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

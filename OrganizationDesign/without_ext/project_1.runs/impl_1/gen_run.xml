@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1488001272">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="MIPS_CPU.vdi"/>
+  <File Type="BG-DRC" Name="MIPS_CPU.drc"/>
+  <File Type="BG-BGN" Name="MIPS_CPU.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="MIPS_CPU.sysdef"/>
+  <File Type="BITSTR-MMI" Name="MIPS_CPU.mmi"/>
+  <File Type="BITSTR-BMM" Name="MIPS_CPU_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="MIPS_CPU.nky"/>
+  <File Type="BITSTR-RBT" Name="MIPS_CPU.rbt"/>
+  <File Type="BITSTR-MSK" Name="MIPS_CPU.msk"/>
+  <File Type="BG-BIN" Name="MIPS_CPU.bin"/>
+  <File Type="BG-BIT" Name="MIPS_CPU.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MIPS_CPU_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MIPS_CPU_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MIPS_CPU_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MIPS_CPU_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-CLK" Name="MIPS_CPU_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="MIPS_CPU_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MIPS_CPU_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="MIPS_CPU_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MIPS_CPU_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MIPS_CPU_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="MIPS_CPU_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="MIPS_CPU_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="MIPS_CPU_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="MIPS_CPU_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MIPS_CPU_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MIPS_CPU_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="MIPS_CPU_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="MIPS_CPU_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MIPS_CPU_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="MIPS_CPU_routed.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="MIPS_CPU_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="MIPS_CPU_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="MIPS_CPU_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="MIPS_CPU_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MIPS_CPU_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="MIPS_CPU_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MIPS_CPU_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="MIPS_CPU_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="MIPS_CPU_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MIPS_CPU_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="MIPS_CPU_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="MIPS_CPU_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="MIPS_CPU_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="MIPS_CPU_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="MIPS_CPU_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="MIPS_CPU_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="MIPS_CPU_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="MIPS_CPU_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="MIPS_CPU.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="MIPS_CPU_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="MIPS_CPU_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="MIPS_CPU_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="MIPS_CPU_timing_summary_init.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MIPS_CPU_postroute_physopt.dcp"/>
+  <File Type="PA-TCL" Name="MIPS_CPU.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/WE.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seven_segment.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/REGISTER.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CONTROL.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dclok.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MEMWB.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/choose_seg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HAZARD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BY_PATH.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RAM_DATA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EXMEM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ROM_INSTRUCTION.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/REGFILE.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IFID.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IDEX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALU_MIPS.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MIPS_CPU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MIPS_CPU"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/MIPS_CPU_T.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

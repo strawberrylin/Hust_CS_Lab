@@ -1,0 +1,31 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /home/strawberrylin/Xilinx/2016.2/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto e59393d9257648d392bf01558e023667 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MIPS_CPU_tb_behav xil_defaultlib.MIPS_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dclok(count_size=327680)
+Compiling module xil_defaultlib.REGISTER
+Compiling module xil_defaultlib.ROM_INSTRUCTION
+Compiling module xil_defaultlib.WE
+Compiling module xil_defaultlib.CONTROL
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.REGFILE
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.ALU_MIPS
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.RAM_DATA
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.BY_PATH
+Compiling module xil_defaultlib.HAZARD
+Compiling module xil_defaultlib.REGISTER(DATA_WIDTH=1)
+Compiling module xil_defaultlib.dclok(count_size=134072)
+Compiling module xil_defaultlib.seven_segment
+Compiling module xil_defaultlib.choose_seg
+Compiling module xil_defaultlib.MIPS_CPU
+Compiling module xil_defaultlib.MIPS_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MIPS_CPU_tb_behav

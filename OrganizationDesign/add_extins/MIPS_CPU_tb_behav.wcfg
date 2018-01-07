@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPS_CPU_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPS_CPU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="717997775fs"></ZoomStartTime>
+      <ZoomEndTime time="718009596fs"></ZoomEndTime>
+      <Cursor1Time time="718000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="logic" fp_name="/MIPS_CPU_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MIPS_CPU_tb/power">
+      <obj_property name="ElementShortName">power</obj_property>
+      <obj_property name="ObjectShortName">power</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/data_choose">
+      <obj_property name="ElementShortName">data_choose[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_choose[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/seg_choose">
+      <obj_property name="ElementShortName">seg_choose[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_choose[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/IFID1/instruction_id">
+      <obj_property name="ElementShortName">instruction_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/IDEX1/instruction_ex">
+      <obj_property name="ElementShortName">instruction_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/EXMEM1/instruction_mem">
+      <obj_property name="ElementShortName">instruction_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/MEMWB1/instruction_wb">
+      <obj_property name="ElementShortName">instruction_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/REGFILE1/regfile">
+      <obj_property name="ElementShortName">regfile[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/RAM/RAM">
+      <obj_property name="ElementShortName">RAM[0:1023][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[0:1023][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/ALU/alu_op">
+      <obj_property name="ElementShortName">alu_op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/ALU/input1">
+      <obj_property name="ElementShortName">input1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/ALU/input2">
+      <obj_property name="ElementShortName">input2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MIPS_CPU_tb/MIPS/ALU/alu_r">
+      <obj_property name="ElementShortName">alu_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_r[31:0]</obj_property>
+   </wvobject>
+</wave_config>

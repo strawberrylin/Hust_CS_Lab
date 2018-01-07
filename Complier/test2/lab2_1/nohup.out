@@ -1,0 +1,3 @@
+1479221766448	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1479221766530	FirefoxAccounts	ERROR	Failed to read plain storage: Unix error 13 during operation open on file /home/strawberrylin/.mozilla/firefox/fr82ypzv.default/signedInUser.json (权限不够) No traceback available
+Vector smash protection is enabled.

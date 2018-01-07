@@ -1,0 +1,67 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Fri Sep 30 09:43:24 2016
+| Host         : strawberrylin-X550JK running 64-bit Ubuntu 16.04.1 LTS
+| Command      : report_control_sets -verbose -file main_module_control_sets_placed.rpt
+| Design       : main_module
+| Device       : xc7a100t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    83 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              21 |           14 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              26 |            7 |
+| Yes          | No                    | No                     |               4 |            2 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              42 |           24 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-------------------------+--------------------------+------------------+----------------+
+|     Clock Signal    |      Enable Signal      |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++---------------------+-------------------------+--------------------------+------------------+----------------+
+|  clk_IBUF_BUFG      | dcount[31]_i_2_n_0      | upled_i_1_n_0            |                1 |              1 |
+|  clk_IBUF_BUFG      | downled_i_2_n_0         | downled2_out             |                1 |              1 |
+|  clk_IBUF_BUFG      | out_uprequire_IBUF[2]   | out_uplable[2]_i_1_n_0   |                1 |              1 |
+|  clk_IBUF_BUFG      | out_uprequire_IBUF[1]   | out_uplable[1]_i_1_n_0   |                1 |              1 |
+|  clk_IBUF_BUFG      | out_uprequire_IBUF[0]   | out_uplable[0]_i_1_n_0   |                1 |              1 |
+|  clk_IBUF_BUFG      | out_downrequire_IBUF[2] | out_downlable[2]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG      | out_downrequire_IBUF[1] | out_downlable[1]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG      | out_downrequire_IBUF[0] | out_downlable[0]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG      | openled_i_2_n_0         | openled_i_1_n_0          |                2 |              2 |
+|  DISPLAY/DCLOCK/CLK |                         |                          |                2 |              3 |
+|  clk_IBUF_BUFG      | dcount10[3]_i_1_n_0     |                          |                2 |              4 |
+|  clk_IBUF_BUFG      |                         |                          |               12 |             18 |
+|  clk_IBUF_BUFG      |                         | DISPLAY/DCLOCK/dclk      |                7 |             26 |
+|  clk_IBUF_BUFG      | dcount[31]_i_2_n_0      | dcount[31]_i_1_n_0       |               14 |             32 |
++---------------------+-------------------------+--------------------------+------------------+----------------+
+
+

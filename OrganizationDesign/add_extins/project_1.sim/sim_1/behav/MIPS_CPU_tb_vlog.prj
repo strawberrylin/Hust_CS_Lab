@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/WE.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/seven_segment.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/REGISTER.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/CONTROL.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/dclok.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/MEMWB.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/choose_seg.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/HAZARD.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/BY_PATH.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/RAM_DATA.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/EXMEM.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/ROM_INSTRUCTION.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/REGFILE.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/IFID.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/IDEX.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/ALU_MIPS.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/MIPS_CPU.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sim_1/new/MIPS_CPU_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

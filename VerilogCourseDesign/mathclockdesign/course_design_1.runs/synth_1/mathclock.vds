@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Sep 30 04:30:45 2016
+# Process ID: 32721
+# Current directory: /home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.runs/synth_1
+# Command line: vivado -log mathclock.vds -mode batch -messageDb vivado.pb -notrace -source mathclock.tcl
+# Log file: /home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.runs/synth_1/mathclock.vds
+# Journal file: /home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mathclock.tcl -notrace
+Command: synth_design -top mathclock -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 32729 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1046.117 ; gain = 154.137 ; free physical = 147 ; free virtual = 13484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mathclock' [/home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.srcs/sources_1/new/mathclock.v:23]
+INFO: [Synth 8-638] synthesizing module 'dclock1' [/home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.srcs/sources_1/new/dclock.v:23]
+INFO: [Synth 8-256] done synthesizing module 'dclock1' (1#1) [/home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.srcs/sources_1/new/dclock.v:23]
+ERROR: [Synth 8-685] variable 'dclk_1Hz' should not be used in output port connection [/home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.srcs/sources_1/new/mathclock.v:36]
+ERROR: [Synth 8-285] failed synthesizing module 'mathclock' [/home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.srcs/sources_1/new/mathclock.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1086.555 ; gain = 194.574 ; free physical = 133 ; free virtual = 13444
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+5 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 30 04:31:01 2016...

@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/gitrepository/VerilogCourseDesign/flatdesign/flatdesign.srcs/sources_1/new/dclock_1000Hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dclock_1000Hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/gitrepository/VerilogCourseDesign/flatdesign/flatdesign.srcs/sources_1/new/seven_segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/gitrepository/VerilogCourseDesign/flatdesign/flatdesign.srcs/sources_1/new/display_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/gitrepository/VerilogCourseDesign/flatdesign/flatdesign.srcs/sources_1/new/main_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/gitrepository/VerilogCourseDesign/flatdesign/flatdesign.srcs/sim_1/new/liftdesign_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module liftdesign_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/strawberrylin/gitrepository/VerilogCourseDesign/flatdesign/flatdesign.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

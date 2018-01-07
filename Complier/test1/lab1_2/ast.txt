@@ -1,0 +1,67 @@
+>print the syntax tree:
+Program(9)
+  ExtDefList(9)
+    ExtDef(9)
+      Specifier(9)
+        StructSpecifier(9)
+          STRUCT(9)
+          OptTag(18833680)
+          RP(9)
+          DefList(10)
+            Def(10)
+              Specifier(10)
+                TYPE:char
+              DecList(10)
+                Dec(10)
+                  VarDec(10)
+                    IDENTIFIER:m
+              SEMI(10)
+            DefList(11)
+              Def(11)
+                Specifier(11)
+                  TYPE:int
+                DecList(11)
+                  Dec(11)
+                    VarDec(11)
+                      IDENTIFIER:a
+                SEMI(11)
+              
+          LP(12)
+      SEMI(12)
+    ExtDefList(13)
+      ExtDef(13)
+        Specifier(13)
+          TYPE:int
+        FunDec(13)
+          IDENTIFIER:inc
+          RP(13)
+          LP(13)
+        CompSt(13)
+          RP(13)
+          DefList(14)
+            Def(14)
+              Specifier(14)
+                TYPE:int
+              DecList(14)
+                Dec(14)
+                  VarDec(14)
+                    IDENTIFIER:i
+              SEMI(14)
+            
+          StmtList(15)
+            Stmt(15)
+              Exp(15)
+                Exp(15)
+                  Exp(15)
+                    IDENTIFIER:i
+                  ASSIGN(15)
+                  Exp(15)
+                    IDENTIFIER:i
+                PLUS(15)
+                Exp(15)
+                  INT:1
+              SEMI(15)
+            
+          LP(16)
+      
+syntax tree over

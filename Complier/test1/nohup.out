@@ -1,0 +1,33 @@
+1479220676051	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1479220676129	FirefoxAccounts	ERROR	Failed to read plain storage: Unix error 13 during operation open on file /home/strawberrylin/.mozilla/firefox/fr82ypzv.default/signedInUser.json (权限不够) No traceback available
+Vector smash protection is enabled.
+1479221308300	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1479221308372	FirefoxAccounts	ERROR	Failed to read plain storage: Unix error 13 during operation open on file /home/strawberrylin/.mozilla/firefox/fr82ypzv.default/signedInUser.json (权限不够) No traceback available
+Vector smash protection is enabled.
+1479222415339	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1479222415415	FirefoxAccounts	ERROR	Failed to read plain storage: Unix error 13 during operation open on file /home/strawberrylin/.mozilla/firefox/fr82ypzv.default/signedInUser.json (权限不够) No traceback available
+Vector smash protection is enabled.
+Vector smash protection is enabled.
+console.error: 
+  Message: TypeError: document.getElementById(...) is null
+  Stack:
+    jUtils.setInputValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://collector-at-broceliand-dot-fr/data/script/jqueryUtils.js:137:18
+PealtreesPearlItButton.showOverlayForNotLoggedUser/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://collector-at-broceliand-dot-fr/data/script/pearlItButton.js:348:17
+PealtreesPearlItButton.requestUserButtonParametersWithCallBack/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://collector-at-broceliand-dot-fr/data/script/pearlItButton.js:134:21
+onceCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:27:11
+onEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:45:22
+onEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:45:22
+onChromeEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:91:16
+
+console.error: 
+  Message: TypeError: button.style is undefined
+  Stack:
+    PealtreesPearlItButton.addStyleToButton@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://collector-at-broceliand-dot-fr/data/script/pearlItButton.js:281:17
+PealtreesPearlItButton.appendButtonToBody@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://collector-at-broceliand-dot-fr/data/script/pearlItButton.js:251:13
+PealtreesPearlItButton.init/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://collector-at-broceliand-dot-fr/data/script/pearlItButton.js:75:29
+PealtreesPearlItButton.requestBackgroundParametersWithCallBack/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://collector-at-broceliand-dot-fr/data/script/pearlItButton.js:107:21
+onceCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:27:11
+onEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:45:22
+onEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:45:22
+onChromeEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/loader/sandbox.js -> resource://gre/modules/commonjs/sdk/content/content-worker.js:91:16
+

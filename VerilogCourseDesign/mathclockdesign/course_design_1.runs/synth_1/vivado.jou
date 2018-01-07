@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Sep 30 04:30:45 2016
+# Process ID: 32721
+# Current directory: /home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.runs/synth_1
+# Command line: vivado -log mathclock.vds -mode batch -messageDb vivado.pb -notrace -source mathclock.tcl
+# Log file: /home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.runs/synth_1/mathclock.vds
+# Journal file: /home/strawberrylin/gitrepository/VerilogCourseDesign/mathclockdesign/course_design_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mathclock.tcl -notrace

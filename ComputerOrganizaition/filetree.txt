@@ -1,0 +1,19 @@
+.
+├── filetree.txt
+├── Lab
+│   ├── fourbits_lookahead.circ
+│   ├── lab1.circ
+│   ├── lab1_task.docx
+│   └── lab2_task.docx
+├── LICENSE
+├── logisim-2.7.1cn.jar
+├── nohup.out
+├── README.md
+└── test
+    ├── alu.circ
+    ├── alu-test.circ
+    ├── CS1409_U201414808_王林_alu.circ
+    ├── regfile.circ
+    └── regfile-test.circ
+
+2 directories, 14 files

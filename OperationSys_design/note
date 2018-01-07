@@ -1,0 +1,14 @@
+semget 函数: 创建信号量
+    key_t key : 0表示创建一个进程给我们的信号量,其他可以自己指定.
+    num ; 信号量的个数.
+    IPC_CRAET : 如果信号量不存在，就创建一个信号量，否则获取.
+    创建成功返回信号量的ID.
+    semid = semget(0,3,IPC_CREAT|0666)
+
+semctl 函数：删除或者初始化信号量
+    semid : 信号量的ID.
+    num : 信号量在信号量集中的编号.
+    cmd ：要进行的操作.
+    sem_union : 可选，初始化;
+    
+shmget 函数 : 
